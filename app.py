@@ -4,4 +4,4 @@ app = Flask(__name__)
 
 @app.route('/ping')
 def ping():
-    return sonify({'message': 'pong'})
+    return jsonify({'message': 'pong'})
